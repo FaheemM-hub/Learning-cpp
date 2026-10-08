@@ -8,12 +8,12 @@ The code written in this repository will be created in tandem with lessons learn
 
 As stated by the book, it teaches readers how to:
 
-• Split problems into discrete components to make them easier to solve
+• *Split problems into discrete components to make them easier to solve*
 
-• Make the most of code reuse with functions, classes, and libraries
+• *Make the most of code reuse with functions, classes, and libraries*
 
-• Pick the perfect data structure for a particular job
+• *Pick the perfect data structure for a particular job*
 
-• Master more advanced programming tools like recursion and dynamic memory
+• *Master more advanced programming tools like recursion and dynamic memory*
 
-• Organize your thoughts and develop strategies to tackle particular types of problems
+• *Organize your thoughts and develop strategies to tackle particular types of problems*
