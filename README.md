@@ -1,4 +1,4 @@
-# learning-cpp
+# Learning-cpp
 A repository dedicated to learning the fundamentals of C++ programming.
 
 Hello! 
