@@ -17,7 +17,7 @@ int main() {
 }
 
   Notes:
-  --------------------------------------------------------
+  --------------------------------------------------------  --------------------------------------------------------
   • #include <iostream> // Used to include the functions for input/output operations.
   • int main() {      } // The main function where the program begins.
   • std::cout           // Represents standard character output console. The "<<" operator will send data into it.
@@ -121,7 +121,7 @@ int main() {
 }
 
   Notes:
-  --------------------------------------------------------
+  --------------------------------------------------------  --------------------------------------------------------
 
   • std::cin >> userAge;    // Makes program interactive through standard character input console. The ">>" operator will store input into the variable.
 
@@ -159,7 +159,7 @@ int main() {
 
 
   Notes:
-  --------------------------------------------------------
+  --------------------------------------------------------  --------------------------------------------------------
 
 
 
@@ -174,5 +174,54 @@ int main() {
 =================================================================================================================
 =================================================================================================================
     
-5. Functions
+5. Loops (For loops & While loops)
+---------------------------------------------------------------------------
+
+#include <iostream>
+
+int main() {
+    
+    for (int i = 0; i < 5; i++){
+        std::cout << "Hello! Number:" << i << std::endl;
+    }
+    return 0;
+    
+}
+
+----------------------------------------------------------
+#include <iostream>
+
+int main() {
+
+    int target = 11;
+    int guess = 0;
+    
+    while (guess != target) {
+        std::cout << "Guess a number between 0 and 15: ";
+        std::cin >> guess;
+        
+    }
+    std::cout << "You guessed it right! The while loop gas now ended." << std::endl;
+    return 0;
+}
+
+
+  Notes:
+  --------------------------------------------------------  --------------------------------------------------------
+• for loop  // Used when you have a specific count/range | "Print this test 10x"
+• while loop // Used when waiting for an event or dynamic condition | "Keep playing the game unti the user clicks 'Exit'."
+
+     
+Output from "for" loop example:
+    Hello! Number:0
+    Hello! Number:1
+    Hello! Number:2
+    Hello! Number:3
+    Hello! Number:4
+
+    
+=================================================================================================================
+=================================================================================================================
+    
+6. Functions
 ---------------------------------------------------------------------------
