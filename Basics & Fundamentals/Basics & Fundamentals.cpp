@@ -116,10 +116,26 @@ int main() {
 4. Control Flow (Conditionals & Loops)
 ---------------------------------------------------------------------------
 
+#include <iostream>
+
+int main() {
+    int age;
+    
+    std::cout << "How old are you? ";
+    std::cin >> age;
+
+    if (age >= 28) {
+        std::cout << "Your getting older, time to take life seriously.";
+    } else {
+        std::cout << "You've got your whole life ahead of you! Live a little bit!";
+    }
+    return 0;
+    
+}
 
 
-
-
+  Notes:
+  --------------------------------------------------------
 
 
 
