@@ -95,19 +95,20 @@ int main() {
 #include <iostream>
 
 int main() {
-
-    int userAge;
-    std::cout << "Enter your Age: ";
-    std::cin >> userAge;
-    Return 0;
     
+    int age; 
+    
+    std::cout << "What is your current age? ";
+    std::cin >> age;
+    std::cout << "Currently your age is: " << age << ". Congrats! You've officially reached 'Unc' status! Now lets learn C++";
+    
+    return 0;
 }
 
   Notes:
   --------------------------------------------------------
 
   • std::cin >> userAge;    // Makes program interactive through standard character input console. The ">>" operator will store input into the variable.
-
 
 =================================================================================================================
 =================================================================================================================
