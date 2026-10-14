@@ -320,7 +320,10 @@ int main() {
 
   Classes require three main parts:
   
-    - Public vs. Private (Encapsulation) // 
+    - Public vs. Private (Encapsulation) // Can be used to hidei nformation inside a class to keep safe
+        - Public // Anyone can access these variables & functions from anywhere in the program
+        - Private // Only functions inside the class can access these, great for protecting sensitive data (passwords or health points in a game)
+    
     - Constructors // 
     - The "this" Keyword // 
 
