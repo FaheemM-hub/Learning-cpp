@@ -185,7 +185,7 @@ int main() {
   Notes:
   --------------------------------------------------------  --------------------------------------------------------
 • for loop  // Used when you have a specific count/range | "Print this test 10x"
-• while loop // Used when waiting for an event or dynamic condition | "Keep playing the game unti the user clicks 'Exit'."
+• while loop // Used when waiting for an event or dynamic condition | "Keep playing the game until the user clicks 'Exit'."
 
      
 Output from "for" loop example:
