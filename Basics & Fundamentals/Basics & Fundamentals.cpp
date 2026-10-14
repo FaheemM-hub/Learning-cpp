@@ -282,9 +282,34 @@ Code Breakdown:
 ============================================================================
 ============================================================================
 
+#include <iostream>
+#include <string>
 
+class Gamer {
+public:
+    std::string gamerTag;
+    int level;
+    std::string location;
 
+    void callout() {
+      std::cout << gamerTag << " spotted an enemy at: " << location << std::endl;
+    }
+  
+};
 
+int main() {
+
+  Gamer player;
+
+  player.gamerTag = "VirusTrojan.exe";
+  player.level = 1337;
+  player.location = "315° at the gray building's 2nd floor";
+
+  player.callout();
+  
+  return 0;
+  
+}
 
 
   
@@ -293,7 +318,11 @@ Code Breakdown:
 
 • Classes // Used to group variables and functions together into one package to share data easily. A class is simply a blueprint, while an object is the actual thing you build from that blueprint.
 
-
+  Classes require three main parts:
+  
+    - Public vs. Private (Encapsulation) // 
+    - Constructors // 
+    - The "this" Keyword // 
 
 
   
