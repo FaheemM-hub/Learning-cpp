@@ -204,6 +204,7 @@ Output from "for" loop example:
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 
 void welcomeUser() {
@@ -228,8 +229,10 @@ int main() {
 
   double price = 13.37;
   double finalTaxes = calculateTaxes(price);
+  double total = price + finalTaxes;
   
   std::cout << "The taxes on $" << price << " is " << finalTaxes << std::endl;
+  std::cout << "Which brings you to a total cost of: $" << std::fixed << std::setprecision(2) << total << std::endl;
 
   return 0;  
   
@@ -266,8 +269,9 @@ Code Breakdown:
 
 • double calculateTaxes() // A function that takes input and returns a value
 
+• << std::fixed << std::setprecision(2) // "std::fixed" will ensure fixed decimal notation, while "std::setprecision(2)" limits to exactly 2 digits after the dot.
 
-
+  - Must include in the header for using "setprecision" | #include <iomanip>
 
 
 
