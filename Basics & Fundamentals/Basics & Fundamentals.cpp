@@ -202,18 +202,73 @@ Output from "for" loop example:
 ============================================================================
 ============================================================================
 
+#include <iostream>
+#include <string>
+
+
+void welcomeUser() {
+  std::cout << "Welcome to the Coding Club!" << std::endl;
+}
+
+void displayAge(int age) {
+  std::cout << "Our database shows that you are " << age << " years old currently." << std::endl;
+}
+
+double calculateTaxes(double price) {
+  double taxRate = 0.11;
+  return price * taxRate;
+}
+
+int main() {
+
+  welcomeUser();
+
+  int currentAge = 28;
+  displayAge(currentAge);
+
+  double price = 13.37;
+  double finalTaxes = calculateTaxes(price);
+  
+  std::cout << "The taxes on $" << price << " is " << finalTaxes << std::endl;
+
+  return 0;  
+  
+}
 
 
 
 
 
 
+  Notes:
+  --------------------------------------------------------  --------------------------------------------------------
+
+• Functions // Used to create reusable blocks of code that perform a specific task, instead of re-writing the same code over and over. Once created, you just have to "call" it.
+
+  Functions require three main parts:
+  
+    - Return Type // You must define the type of data returned (int, double, std::string), If not use "void".
+    - Function Name // Unique name you use to call the function (example: calculateTax, measureArea, and totalPrice)
+    - Parameters (Inputs) // Data passed into a function to work with, placed within the parentheses ().
+
+Key tips:
+  - Always define your functions above the main() function, that way the program knows they exist.
+
+Code Breakdown:
+
+• void welcomeUser() // A function using void and an empty parameter. Which will make this function return nothing and take no inputs. This is great for making a welcome or introduction message/banner.
+
+  - Called using | welcomeUser();
+  
+• void displayAge(int age) // A function using void and a interger parameter. Which will make the function return nothing again, but input the "age".
+
+  - Called using | displayAge(myAge);
+
+• double calculateTaxes() // A function that takes input and returns a value
 
 
 
 
 
 
-
-
-      
+  
