@@ -177,7 +177,7 @@ int main() {
         std::cin >> guess;
         
     }
-    std::cout << "You guessed it right! The while loop gas now ended." << std::endl;
+    std::cout << "You guessed it right! The while loop guess now ended." << std::endl;
     return 0;
 }
 
