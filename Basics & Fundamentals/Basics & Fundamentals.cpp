@@ -44,13 +44,14 @@ Example: int x = 4;
 std::cout << x;
 
     
-//Type	        Description	                                        Example Syntax
-----            ---------------------------------------------       --------------------------
-int	            Whole integers	                                    int age = 25;
-double	        Floating-point numbers	                            double price = 19.99;
-char	        Single character (enclosed in single quotes)	    char grade = 'A';
-bool	        Boolean state (true or false)	                    bool isCoding = true;
-std::string	    Managed sequence of characters (double quotes)	    std::string name = "Alice";
+//Type	              Description	                                        Example Syntax
+----                  ---------------------------------------------       --------------------------
+int	                  Whole integers	                                    int age = 25;
+double	              Floating-point numbers	                            double price = 19.99;
+char	                Single character (enclosed in single quotes)	      char grade = 'A';
+bool	                Boolean state (true or false)	                      bool isCoding = true;
+std::string	          Managed sequence of characters (double quotes)	    std::string name = "Alice";
+const [insert type]   Makes a variable unchangeable                       const double PI = 3.14159
 
 Examples
 ---------------------------------------------------------------------------
@@ -85,7 +86,11 @@ int main() {
     std::cout << name;
     std::cout << "Hello " << name;
     std::cout << "You are " << age << "years old.";
-    
+
+    // Creates an unchangeable variable
+    const double PI = 3.14159;
+  
+  
     Return 0;
 }
 
@@ -144,7 +149,7 @@ int main() {
 
   Notes:
   --------------------------------------------------------  --------------------------------------------------------
-
+  • else if // can be used after if, but before else if you want to add another condition.
 
 
 
@@ -201,7 +206,22 @@ Output from "for" loop example:
                                 6. Functions
 ============================================================================
 ============================================================================
+#include <iostream>
+#include <string>
 
+int addNumbers(int a, int b) {
+  return a + b;
+}
+
+  
+int main() {
+  int sum = addNumbers(1000, 337);
+  std::cout << sum;
+  return 0;
+}
+
+----------------------------------------------------------
+    
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -237,8 +257,6 @@ int main() {
   return 0;  
   
 }
-
-
 
 
 
@@ -324,8 +342,37 @@ int main() {
         - Public // Anyone can access these variables & functions from anywhere in the program
         - Private // Only functions inside the class can access these, great for protecting sensitive data (passwords or health points in a game)
     
-    - Constructors // 
-    - The "this" Keyword // 
+    - Constructors // A special function that runs automatically at the exact moment you create an object. It's mostly used to set up your initial data so you don't have to assign variables one-by-one. Will always have same name as class and no return type.
+
+            class Gamer {
+            public:
+              std::string name;
+              int health;
+        
+              // The constructor is here \/
+              Player(std::string StartName, int startHealth) {
+                  name = startName;
+                  health = startHealth;
+              }
+            };
+        
+            int main() {
+              Gamer p1("VirusTrojan.exe", 100)
+            }
+
+
+    - The "this" Keyword // Within a class function, "this" is a hidden pointer that will directly point to the specific object running the code. These are very useful when your function parameters have the same name as your class variables.
+
+              class Car {
+              public:
+                int speed;
+
+                void setSpeed(int speed) {
+                  // "this->speed" means the class variable
+                  // "speed" means the function parameter
+                  this->speed = speed;
+                }
+              };
 
 
   
