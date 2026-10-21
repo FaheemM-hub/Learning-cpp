@@ -4,7 +4,7 @@
 						      	      Think Like A Programmer
 			       	 	 	   "An introduction to creative problem solving"
 							
-							          by V. Anton Spraul
+							         by V. Anton Spraul
 				
 ============================================================================
 
@@ -13,7 +13,7 @@
 
 ============================================================================
 				        
-							Chapter 1: Strategies for Problem Solving
+						   Chapter 1: Strategies for Problem Solving
 ============================================================================
 
 
