@@ -1,1 +1,1 @@
-
+For Pointers & Dynamic Memory
