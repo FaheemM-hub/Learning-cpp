@@ -1,4 +1,4 @@
-	Note: These are notes and tips taken from the book below
+	Note: These are personal notes and tips taken from the book below
 ============================================================================
 
 						      	      Think Like A Programmer
