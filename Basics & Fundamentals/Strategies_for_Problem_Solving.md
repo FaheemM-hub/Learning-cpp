@@ -1,22 +1,21 @@
-============================================================================
-============================================================================
+	Note: These are notes and tips taken from the book below
 ============================================================================
 
-						              	Think Like A Programmer
-			       	 "An introduction to creative problem solving"
+						      	      Think Like A Programmer
+			       	 	 	   "An introduction to creative problem solving"
 							
-							               by V. Anton Spraul
+							          by V. Anton Spraul
 				
 ============================================================================
-============================================================================
-============================================================================
+
+
 
 
 ============================================================================
+				        
+							Chapter 1: Strategies for Problem Solving
 ============================================================================
-				        Chapter 1: Strategies for Problem Solving
-============================================================================
-============================================================================
+
 
 Classic Puzzles
 ============================================================================
@@ -46,7 +45,7 @@ General Problem-Solving Techniques
 	
 	2. Restate the Problem
 		
-		- Some times problems that look very difficult may seem easy when stated in a different way (Like circling the base of a hill you need to climb and finding the easiest angle/slope to approach)
+		- Sometimes problems that look very difficult may seem easy when stated in a different way (Like circling the base of a hill you need to climb and finding the easiest angle/slope to approach)
 	
 	3. Divide the Problem
 	
