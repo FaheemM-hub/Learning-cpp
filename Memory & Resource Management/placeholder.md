@@ -1,1 +1,2 @@
-For Pointers & Dynamic Memory
+For creation of:
+- Pointers & Dynamic Memory
