@@ -22,14 +22,17 @@ Classic Puzzles
 ============================================================================
 
 The Fox, the Goose, and the Corn
+  
   1. Restating the problem in a more formal manner offers gaining more insight into the problem (Enumerating Contraints and possible Operations that can be executed)
 
 Sudoku
+  
   2. You should look for the most constrained part of a problem to solve first (It's easier than having to backtrack and make corrections after solving easier problems first)
 
 	  - Start with the variable with the most constraints or "the variable with the lowest number of possible values"
     
 The Quarrasi Lock
+  
   3. It's important to recognize analogies, in some cases the connections and similarities of other problems can solve the one at hand much more quickly
 
 
